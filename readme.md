@@ -2,7 +2,7 @@ OpenWeatherMap API Test Project
 
 This is an automated API testing project using Java, TestNG, and RestAssured to validate responses from the OpenWeatherMap Current Weather API.
 
-Features
+✅ Features
 
 Data-driven testing using TestNG and CSV files
 
@@ -14,9 +14,9 @@ Modular structure using Base classes and helpers
 
 Allure integration for beautiful reports
 
-Test Coverage
+🧪 Test Coverage
 
-Positive Tests
+✔️ Positive Tests
 
 Basic status code verification for multiple cities (from CSV)
 
@@ -26,7 +26,7 @@ Response field validation (e.g., temperature, humidity)
 
 Validations for non-null essential fields
 
-Negative Tests
+❌ Negative Tests
 
 Missing API key (401 Unauthorized)
 
@@ -34,7 +34,7 @@ Invalid city name (404 Not Found)
 
 Empty or malformed query (400 Bad Request)
 
-Optional (Planned / Extensible)
+🌐 Optional (Planned / Extensible)
 
 Language-specific responses validation
 
@@ -42,7 +42,7 @@ Comparison of description field between different languages
 
 Schema validation using JSON Schema
 
-Project Structure
+🗂 Project Structure
 
 src
 ├── main
@@ -61,7 +61,7 @@ src
 │       └── testdata
 │           └── cities.csv        # City-country pairs used for testing
 
-Configuration
+🔧 Configuration
 
 config.properties
 
@@ -77,7 +77,7 @@ Berlin,DE
 Tbilisi,GE
 Paris,FR
 
-How to Run
+🚀 How to Run
 
 Run tests via Maven:
 
@@ -87,7 +87,7 @@ Generate Allure Report:
 
 allure serve target/allure-results
 
-Requirements
+📌 Requirements
 
 Java 11+
 
@@ -95,7 +95,7 @@ Maven
 
 Allure CLI (for reports)
 
-Notes
+📎 Notes
 
 API key must be valid and have access to the Current Weather endpoint
 
@@ -103,6 +103,6 @@ Some tests (e.g., language validation) are sensitive to live data
 
 Consider using mocks or recorded responses for CI stability
 
-Contact / Contribute
+📬 Contact / Contribute
 
 Feel free to fork and extend. For questions, reach out via GitHub or any channel.
